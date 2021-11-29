@@ -1,15 +1,17 @@
 import React from "react";
 
-const Season = () => {
+const Season = (props) => {
   return (
-    <div>
-      <h3> Would you like to use seasonal ingredients?</h3>
-      <button> I don't care </button>
-      <button> Fall</button>
-      <button> Winter </button>
-      <button> Spring </button>
-      <button> Summer </button>
-    </div>
+    props.displaySeason && (
+      <div>
+        <h3> Would you like to use seasonal ingredients?</h3>
+        <button onClick={() => props.toSetSeasonValues(0)}>I don't care</button>
+        <button onClick={() => props.toSetSeasonValues(1)}> Spring</button>
+        <button onClick={() => props.toSetSeasonValues(2)}> Summer </button>
+        <button onClick={() => props.toSetSeasonValues(3)}> Winter </button>
+        <button onClick={() => props.toSetSeasonValues(4)}> Fall </button>
+      </div>
+    )
   );
 };
 

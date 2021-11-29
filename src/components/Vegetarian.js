@@ -5,8 +5,8 @@ const Vegetarian = (props) => {
     props.displayVeg && (
       <div>
         <h3> Do you want your ingredients to be vegetarian?</h3>
-        <button onClick={() => props.isVegVar(true)}> Yes </button>
-        <button onClick={() => props.isVegVar(false)}> No </button>
+        <button onClick={() => props.toSetVegetarianValues(true)}> Yes </button>
+        <button onClick={() => props.toSetVegetarianValues(false)}> No </button>
       </div>
     )
   );
