@@ -5,8 +5,8 @@ const Results = (props) => {
   console.log(props.allMyResults);
   return (
     props.displayResults && (
-      <div>
-        <h2> Your Ingredients are</h2>
+      <div className="resultsPage">
+        <h2> Your Ingredients are:</h2>
         <h2>Protein: {props.myProtienResults} </h2>
         <h2> Vegetable: {props.myVegetableResults}</h2>
         <h2> Carb: {props.myCarbResults} </h2>

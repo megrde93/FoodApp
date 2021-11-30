@@ -4,6 +4,8 @@ import Vegetarian from "./Vegetarian";
 import Season from "./Season";
 import GoButton from "./GoButton";
 import Results from "./Results";
+import ChefHat from "../images/icons8-cafe-50.png";
+import LogoJr from "../images/Random Meal Generator (5).png";
 
 const proteinArr = ["Chicken", "Beef", `Shrimp`, `Pork`, `Turkey`];
 const springArr = [
@@ -103,11 +105,14 @@ const RandomIngredients = () => {
   return (
     <div>
       <header>
-        <Link className="infoLink" to="/">
-          Take me back to the info page
-        </Link>
+        <div className="infoLinkBar">
+          <Link className="infoLink" to="/">
+            Take me back to the info page
+          </Link>
+          <img className="LogoJr" src={LogoJr} alt="chefs hat" />
+        </div>
       </header>
-
+      <img className="chefsHatImg" src={ChefHat} alt="chefs hat" />
       <h1 className="dinnerTime"> DinnerTime</h1>
       <h1 className="mealGenerator "> The Random Meal Generator</h1>
       <Vegetarian

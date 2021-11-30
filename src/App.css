@@ -1,80 +1,19 @@
-*{background-color: rgba(254,250,239,255);
+* {
+  background-color: rgba(254, 250, 239, 255);
   font-family: Lobster;
-;}
+}
 
-* button {font-family:norwester
-  
+* button {
+  font-family: norwester;
 }
 
 @font-face {
-  font-family: 'Lobster';
-  src: local('Lobster'), url(./styles/Lobster_Two/LobsterTwo-Regular.ttf);}
+  font-family: "Lobster";
+  src: local("Lobster"), url(./styles/Lobster_Two/LobsterTwo-Regular.ttf);
+}
 @font-face {
-  font-family: 'Norwester';
-  src: local('Norwester'), url(./styles/norwester/norwester.otf);}
-
-.App {
-  text-align: center;
-}
-.landingBar {
-   background-color: 
-#594149;
-padding: 1.5vh;
-}
-
-.dinnerTime{
-font-size: 5vh;
-margin-bottom: 1vh;
-}
-.lobster{
-  font-family: lobster;
-}
-.norwester{
-  font-family:norwester
-}
-
-.landingDiv {
-  font-family:norwester;
-  font-weight: 3;
-}
-
-.lists{
-  list-style-type:none;
-}
-
-.recipePage{
-font-size: 2.2vh;
-font-family: norwester;
-font-weight: 2;
-}
-
-.listTitle{
-font-family: norwester;
-font-size: 2.5vh;
-}
-
-.mealGenerator{
-font-family: norwester;
-font-size: 3vh;
-margin-top: 0;
-}
-
-.questions{
-  font-family: lobster;
-  display:flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-
-.infoLink{
-  background-color: 
-#594149;
-color:rgba(254,250,239,255);
-padding: 1.5vh;
-display: flex;
-flex-direction: row;
-align-items:flex-start;
-font-family: norwester;
+  font-family: "Norwester";
+  src: local("Norwester"), url(./styles/norwester/norwester.otf);
 }
 
 .App-header {
@@ -86,6 +25,137 @@ font-family: norwester;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+/* UNIVERSAL  */
+
+.infoLinkBar {
+  display: flex;
+  background-color: #594149;
+  width: 100;
+  padding: 0.5vh;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.infoLink {
+  flex-direction: row;
+  font-family: norwester;
+  color: rgba(254, 250, 239, 255);
+  background-color: #594149;
+}
+
+.LogoJr {
+  flex-direction: row;
+  width: 40px;
+  padding: 0;
+  margin: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+.DTLogo {
+  width: 200px;
+}
+
+.lobster {
+  font-family: lobster;
+}
+.norwester {
+  font-family: norwester;
+}
+
+.chefsHatImg {
+  margin-top: 3vh;
+}
+
+.dinnerTime {
+  font-size: 5vh;
+  margin-bottom: 1vh;
+  margin-top: 0;
+}
+
+/* LANDING */
+.landingBar {
+  background-color: #594149;
+  padding: 1.5vh;
+  margin-bottom: 2vh;
+}
+
+.landingDiv {
+  font-family: norwester;
+  font-weight: 3;
+}
+
+/* INGREDIENTS */
+/* Veggie */
+.veggiePage {
+  font-size: 2.2vh;
+}
+
+.veggieImg {
+  width: 50px;
+  margin-top: 2vh;
+}
+
+/* SEASON */
+
+.seasonImg {
+  width: 50px;
+  margin-top: 2vh;
+}
+
+/* Meal Generator */
+.mealGenerator {
+  font-family: norwester;
+  font-size: 3vh;
+  margin-top: 0;
+}
+
+/* RECIPE */
+
+.recipeBottom {
+  margin-bottom: 5vh;
+}
+
+.lists {
+  list-style-type: none;
+  padding: 0;
+}
+
+.recipePage {
+  font-size: 2.2vh;
+  font-family: norwester;
+  font-weight: 2;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100vw;
+}
+
+.container {
+  width: 300px;
+  align-items: center;
+  padding: 2vh;
+}
+
+.listTitle {
+  font-family: norwester;
+  font-size: max;
+  max-height: 2.5vh;
+  padding: 1vh;
+}
+
+.questions {
+  font-family: lobster;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 .App-link {
