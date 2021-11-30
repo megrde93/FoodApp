@@ -1,16 +1,80 @@
+*{background-color: rgba(254,250,239,255);
+  font-family: Lobster;
+;}
+
+* button {font-family:norwester
+  
+}
+
+@font-face {
+  font-family: 'Lobster';
+  src: local('Lobster'), url(./styles/Lobster_Two/LobsterTwo-Regular.ttf);}
+@font-face {
+  font-family: 'Norwester';
+  src: local('Norwester'), url(./styles/norwester/norwester.otf);}
+
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.landingBar {
+   background-color: 
+#594149;
+padding: 1.5vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.dinnerTime{
+font-size: 5vh;
+margin-bottom: 1vh;
+}
+.lobster{
+  font-family: lobster;
+}
+.norwester{
+  font-family:norwester
+}
+
+.landingDiv {
+  font-family:norwester;
+  font-weight: 3;
+}
+
+.lists{
+  list-style-type:none;
+}
+
+.recipePage{
+font-size: 2.2vh;
+font-family: norwester;
+font-weight: 2;
+}
+
+.listTitle{
+font-family: norwester;
+font-size: 2.5vh;
+}
+
+.mealGenerator{
+font-family: norwester;
+font-size: 3vh;
+margin-top: 0;
+}
+
+.questions{
+  font-family: lobster;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.infoLink{
+  background-color: 
+#594149;
+color:rgba(254,250,239,255);
+padding: 1.5vh;
+display: flex;
+flex-direction: row;
+align-items:flex-start;
+font-family: norwester;
 }
 
 .App-header {

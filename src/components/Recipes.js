@@ -30,15 +30,20 @@ const Recipes = (props) => {
   return (
     <div>
       <header>
-        <Link to="/">Take me back to the info page</Link>
+        <Link className="infoLink" to="/">
+          Take me back to the info page
+        </Link>
       </header>
-      <h1>This is my API recipe integration page</h1>
-      <h2> Your results were {props.location.state.allMyResults} </h2>
-      <ul>
-        <li>{recipeOne.label}</li>
+      <h1 className="dinnerTime"> DinnerTime</h1>
+      <h2 className="recipePage">
+        Your results were {props.location.state.allMyResults}
+      </h2>
+      <h2 className="recipePage"> Here's what we found for you: </h2>
+      <ul className="lists">
+        <li className="listTitle">{recipeOne.label}</li>
         <img src={recipeOne.image} alt={recipeOne.label} />
         <li> Total Time: {recipeOne.totalTime} Min</li>
-        <li> Servings:{recipeOne.yield} </li>
+        <li> Servings: {recipeOne.yield} </li>
         <li>
           <a target="blank" href={recipeOne.url}>
             Find This Recipe Here!
@@ -46,11 +51,11 @@ const Recipes = (props) => {
         </li>
       </ul>
 
-      <ul>
-        <li>{recipeTwo.label}</li>
+      <ul className="lists">
+        <li className="listTitle">{recipeTwo.label}</li>
         <img src={recipeTwo.image} alt={recipeTwo.label} />
         <li> Total Time: {recipeTwo.totalTime} Min</li>
-        <li> Servings:{recipeTwo.yield} </li>
+        <li> Servings: {recipeTwo.yield} </li>
         <li>
           <a target="blank" href={recipeTwo.url}>
             Find This Recipe Here!
@@ -58,11 +63,11 @@ const Recipes = (props) => {
         </li>
       </ul>
 
-      <ul>
-        <li>{recipeThree.label}</li>
+      <ul className="lists">
+        <li className="listTitle">{recipeThree.label}</li>
         <img src={recipeThree.image} alt={recipeThree.label} />
         <li> Total Time: {recipeThree.totalTime} Min</li>
-        <li> Servings:{recipeThree.yield} </li>
+        <li> Servings: {recipeThree.yield} </li>
         <li>
           <a target="blank" href={recipeThree.url}>
             Find This Recipe Here!
@@ -70,8 +75,10 @@ const Recipes = (props) => {
         </li>
       </ul>
 
-      <Link to="/Recipes">
-        <button>I want to try again</button>
+      <Link to="/RandomIngredients">
+        <button className="norwester">
+          I don't think so. I want to try again.
+        </button>
       </Link>
     </div>
   );

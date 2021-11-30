@@ -4,7 +4,7 @@ const GoButton = (props) => {
   return (
     props.displayGoButton && (
       <div>
-        <button onClick={() => props.toSetResults()}> It's go time!</button>
+        <button onClick={() => props.toSetResults()}>It's go time!</button>
       </div>
     )
   );

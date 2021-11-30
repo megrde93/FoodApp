@@ -103,10 +103,13 @@ const RandomIngredients = () => {
   return (
     <div>
       <header>
-        <Link to="/">Take me back to the info page</Link>
+        <Link className="infoLink" to="/">
+          Take me back to the info page
+        </Link>
       </header>
-      <h1> Welcome To the Random Ingredient Selector</h1>
-      <h2> Please answer the questions below to get started</h2>
+
+      <h1 className="dinnerTime"> DinnerTime</h1>
+      <h1 className="mealGenerator "> The Random Meal Generator</h1>
       <Vegetarian
         toSetVegetarianValues={toSetVegetarianValues}
         displayVeg={displayVeg}
