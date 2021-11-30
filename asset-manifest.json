@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/megrde93/FoodApp/static/css/main.0da2ace1.chunk.css",
+    "main.js": "/megrde93/FoodApp/static/js/main.a8489938.chunk.js",
+    "main.js.map": "/megrde93/FoodApp/static/js/main.a8489938.chunk.js.map",
+    "runtime-main.js": "/megrde93/FoodApp/static/js/runtime-main.bc13103d.js",
+    "runtime-main.js.map": "/megrde93/FoodApp/static/js/runtime-main.bc13103d.js.map",
+    "static/js/2.2d16ad3f.chunk.js": "/megrde93/FoodApp/static/js/2.2d16ad3f.chunk.js",
+    "static/js/2.2d16ad3f.chunk.js.map": "/megrde93/FoodApp/static/js/2.2d16ad3f.chunk.js.map",
+    "static/js/3.b2d950d9.chunk.js": "/megrde93/FoodApp/static/js/3.b2d950d9.chunk.js",
+    "static/js/3.b2d950d9.chunk.js.map": "/megrde93/FoodApp/static/js/3.b2d950d9.chunk.js.map",
+    "index.html": "/megrde93/FoodApp/index.html",
+    "static/css/main.0da2ace1.chunk.css.map": "/megrde93/FoodApp/static/css/main.0da2ace1.chunk.css.map",
+    "static/js/2.2d16ad3f.chunk.js.LICENSE.txt": "/megrde93/FoodApp/static/js/2.2d16ad3f.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/megrde93/FoodApp/static/media/norwester.696306af.otf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bc13103d.js",
+    "static/js/2.2d16ad3f.chunk.js",
+    "static/css/main.0da2ace1.chunk.css",
+    "static/js/main.a8489938.chunk.js"
+  ]
+}
