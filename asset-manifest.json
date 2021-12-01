@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/FoodApp/static/css/main.031fca08.chunk.css",
-    "main.js": "/FoodApp/static/js/main.d2644077.chunk.js",
-    "main.js.map": "/FoodApp/static/js/main.d2644077.chunk.js.map",
+    "main.css": "/FoodApp/static/css/main.476f0691.chunk.css",
+    "main.js": "/FoodApp/static/js/main.5c1d8a1d.chunk.js",
+    "main.js.map": "/FoodApp/static/js/main.5c1d8a1d.chunk.js.map",
     "runtime-main.js": "/FoodApp/static/js/runtime-main.269fe7c8.js",
     "runtime-main.js.map": "/FoodApp/static/js/runtime-main.269fe7c8.js.map",
     "static/js/2.31e733b2.chunk.js": "/FoodApp/static/js/2.31e733b2.chunk.js",
@@ -10,14 +10,17 @@
     "static/js/3.b2d950d9.chunk.js": "/FoodApp/static/js/3.b2d950d9.chunk.js",
     "static/js/3.b2d950d9.chunk.js.map": "/FoodApp/static/js/3.b2d950d9.chunk.js.map",
     "index.html": "/FoodApp/index.html",
-    "static/css/main.031fca08.chunk.css.map": "/FoodApp/static/css/main.031fca08.chunk.css.map",
+    "static/css/main.476f0691.chunk.css.map": "/FoodApp/static/css/main.476f0691.chunk.css.map",
     "static/js/2.31e733b2.chunk.js.LICENSE.txt": "/FoodApp/static/js/2.31e733b2.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/FoodApp/static/media/norwester.696306af.otf"
+    "static/media/App.css": "/FoodApp/static/media/norwester.696306af.otf",
+    "static/media/Random Meal Generator (3).c5f0a7b5.png": "/FoodApp/static/media/Random Meal Generator (3).c5f0a7b5.png",
+    "static/media/Random Meal Generator (5).04da2e72.png": "/FoodApp/static/media/Random Meal Generator (5).04da2e72.png",
+    "static/media/icons8-calendar.ed121379.gif": "/FoodApp/static/media/icons8-calendar.ed121379.gif"
   },
   "entrypoints": [
     "static/js/runtime-main.269fe7c8.js",
     "static/js/2.31e733b2.chunk.js",
-    "static/css/main.031fca08.chunk.css",
-    "static/js/main.d2644077.chunk.js"
+    "static/css/main.476f0691.chunk.css",
+    "static/js/main.5c1d8a1d.chunk.js"
   ]
 }
